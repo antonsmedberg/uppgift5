@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "699894C5-1853-4622-8603-339BDA357D8C": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "8F21511C-864A-4B60-AB93-131492904264": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "9D3C6796-A40D-4FB9-8C02-AC3F9D732D83": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "AntonImageClassifier 1.mlmodel",
+            "path": "com.apple.CoreML/AntonImageClassifier 1.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "9D3C6796-A40D-4FB9-8C02-AC3F9D732D83"
+}
