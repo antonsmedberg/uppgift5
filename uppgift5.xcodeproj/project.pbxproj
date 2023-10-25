@@ -11,6 +11,8 @@
 		E6F306FD2AE7D7E3004F38BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F306FC2AE7D7E3004F38BC /* ContentView.swift */; };
 		E6F306FF2AE7D7E5004F38BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F306FE2AE7D7E5004F38BC /* Assets.xcassets */; };
 		E6F307022AE7D7E5004F38BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F307012AE7D7E5004F38BC /* Preview Assets.xcassets */; };
+		E6F3070B2AE7D8AA004F38BC /* ImageModelAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F3070A2AE7D8AA004F38BC /* ImageModelAnimal.swift */; };
+		E6FC8D2C2AE95A3E00F21A78 /* AnimalAntonImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E6FC8D292AE940B700F21A78 /* AnimalAntonImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E6F306FC2AE7D7E3004F38BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6F306FE2AE7D7E5004F38BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6F307012AE7D7E5004F38BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6F3070A2AE7D8AA004F38BC /* ImageModelAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModelAnimal.swift; sourceTree = "<group>"; };
+		E6FC8D292AE940B700F21A78 /* AnimalAntonImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalAntonImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				E6F306FA2AE7D7E3004F38BC /* uppgift5App.swift */,
 				E6F306FC2AE7D7E3004F38BC /* ContentView.swift */,
+				E6FC8D292AE940B700F21A78 /* AnimalAntonImageClassifier.mlmodel */,
 				E6F306FE2AE7D7E5004F38BC /* Assets.xcassets */,
 				E6F307002AE7D7E5004F38BC /* Preview Content */,
+				E6F3070A2AE7D8AA004F38BC /* ImageModelAnimal.swift */,
 			);
 			path = uppgift5;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FC8D2C2AE95A3E00F21A78 /* AnimalAntonImageClassifier.mlmodel in Sources */,
 				E6F306FD2AE7D7E3004F38BC /* ContentView.swift in Sources */,
 				E6F306FB2AE7D7E3004F38BC /* uppgift5App.swift in Sources */,
+				E6F3070B2AE7D8AA004F38BC /* ImageModelAnimal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
